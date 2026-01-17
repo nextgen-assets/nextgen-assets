@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>From Allowance to Assets: The Teen Guide to Millionaire Habits in 2026</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="From Allowance to Assets: The Teen Guide to Millionaire Habits in 2026 – a practical, modern guide to help teens build real wealth with proven habits." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      color-scheme: dark light;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #111827 0, #020617 45%, #000000 100%);
+      color: #e5e7eb;
+    }
+    .glass {
+      background: rgba(15, 23, 42, 0.7);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+    }
+    .btn-gradient {
+      background-image: linear-gradient(135deg, #22c55e, #22d3ee, #6366f1);
+      background-size: 200% 200%;
+      transition: background-position 0.4s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .btn-gradient:hover {
+      background-position: 100% 0;
+      transform: translateY(-1px) scale(1.01);
+      box-shadow: 0 18px 40px rgba(59, 130, 246, 0.4);
+    }
+    .badge-soft {
+      background: linear-gradient(135deg, rgba(34, 197, 94, 0.15), rgba(129, 140, 248, 0.1));
+      border: 1px solid rgba(34, 197, 94, 0.3);
+    }
+    .section-fade-up {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+    }
+    .section-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .ebook-cover {
+      background: radial-gradient(circle at 20% 0%, #22d3ee 0, transparent 55%),
+                  radial-gradient(circle at 80% 100%, #22c55e 0, transparent 55%),
+                  linear-gradient(145deg, #020617 0, #020617 40%, #111827 100%);
+      box-shadow:
+        0 20px 60px rgba(15, 23, 42, 0.9),
+        0 0 0 1px rgba(148, 163, 184, 0.35);
+    }
+    .ebook-spine {
+      background: linear-gradient(to bottom, rgba(15, 23, 42, 0.9), rgba(30, 64, 175, 0.9));
+    }
+    .pill {
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+    }
+    .highlight {
+      background: linear-gradient(120deg, rgba(56, 189, 248, 0.2), rgba(52, 211, 153, 0.15));
+      box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.4);
+    }
+    .pricing-card {
+      background: radial-gradient(circle at top left, rgba(34, 211, 238, 0.18), transparent 55%),
+                  radial-gradient(circle at bottom right, rgba(52, 211, 153, 0.18), transparent 55%),
+                  rgba(15, 23, 42, 0.9);
+      backdrop-filter: blur(22px);
+    }
+    .grid-line {
+      background-image: linear-gradient(to right, rgba(31, 41, 55, 0.55) 1px, transparent 1px),
+                        linear-gradient(to bottom, rgba(31, 41, 55, 0.55) 1px, transparent 1px);
+      background-size: 48px 48px;
+      opacity: 0.3;
+      pointer-events: none;
+    }
+    .pulse-dot::before {
+      content: "";
+      position: absolute;
+      inset: -6px;
+      border-radius: 999px;
+      border: 1px solid rgba(56, 189, 248, 0.5);
+      animation: pulse 1.8s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(0.8); opacity: 0.8; }
+      100% { transform: scale(1.3); opacity: 0; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    .float-slow {
+      animation: float 6s ease-in-out infinite;
+    }
+    .faq-item button[aria-expanded="true"] .faq-icon-open {
+      display: inline;
+    }
+    .faq-item button[aria-expanded="true"] .faq-icon-closed {
+      display: none;
+    }
+    .faq-item button[aria-expanded="false"] .faq-icon-open {
+      display: none;
+    }
+    .faq-item button[aria-expanded="false"] .faq-icon-closed {
+      display: inline;
+    }
+    @media (max-width: 768px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body class="min-h-screen text-slate-100 antialiased">
+  <div class="fixed inset-0 bg-gradient-to-b from-slate-950 via-slate-950/95 to-slate-900/95 -z-20"></div>
+  <div class="fixed inset-0 grid-line -z-10"></div>
+
+  <header class="sticky top-0 z-40 border-b border-slate-800/70 bg-slate-950/80 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+      <a href="#top" class="flex items-center gap-2">
+        <div class="relative flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr from-emerald-400 via-cyan-400 to-indigo-500 shadow-lg shadow-cyan-500/40">
+          <span class="text-lg font-black tracking-tight text-slate-950">A</span>
+        </div>
+        <div class="flex flex-col leading-tight">
+          <span class="text-sm font-semibold text-slate-100">Allowance to Assets</span>
+          <span class="text-[11px] uppercase tracking-[0.18em] text-slate-400">Teen Wealth Lab</span>
+        </div>
+      </a>
+
+      <nav class="hidden items-center gap-8 text-sm font-medium text-slate-200 md:flex">
+        <a href="#about" class="hover:text-cyan-300 transition-colors">About</a>
+        <a href="#inside" class="hover:text-cyan-300 transition-colors">Inside the Book</a>
+        <a href="#bonuses" class="hover:text-cyan-300 transition-colors">Bonuses</a>
+        <a href="#testimonials" class="hover:text-cyan-300 transition-colors">Readers</a>
+        <a href="#faq" class="hover:text-cyan-300 transition-colors">FAQ</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <button id="scrollToBuyDesktop" class="hidden rounded-full border border-emerald-400/40 bg-emerald-500/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-emerald-300 shadow shadow-emerald-500/20 hover:bg-emerald-500/15 md:inline-flex">
+          Buy for $7.99
+        </button>
+        <button id="mobileMenuToggle" class="flex h-9 w-9 items-center justify-center rounded-lg border border-slate-700/80 bg-slate-900/80 text-slate-200 hover:border-slate-500 md:hidden">
+          <span class="sr-only">Toggle navigation</span>
+          <svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" class="hidden h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="glass mx-4 mt-2 hidden rounded-2xl border border-slate-800/80 px-4 pb-4 pt-2 text-sm text-slate-100 shadow-2xl md:hidden">
+      <nav class="flex flex-col gap-2 py-2">
+        <a href="#about" class="rounded-lg px-2 py-2 hover:bg-slate-800/70">About</a>
+        <a href="#inside" class="rounded-lg px-2 py-2 hover:bg-slate-800/70">Inside the Book</a>
+        <a href="#bonuses" class="rounded-lg px-2 py-2 hover:bg-slate-800/70">Bonuses</a>
+        <a href="#testimonials" class="rounded-lg px-2 py-2 hover:bg-slate-800/70">Readers</a>
+        <a href="#faq" class="rounded-lg px-2 py-2 hover:bg-slate-800/70">FAQ</a>
+      </nav>
+      <button id="scrollToBuyMobile" class="btn-gradient mt-2 flex w-full items-center justify-center rounded-full px-4 py-2.5 text-sm font-semibold text-slate-950">
+        Get the Ebook – $7.99
+      </button>
+    </div>
+  </header>
+
+  <main id="top" class="mx-auto max-w-6xl px-4 pb-16 pt-10 sm:px-6 lg:px-8 sm:pt-14">
+    <!-- Hero -->
+    <section class="section-fade-up hero mb-16 grid gap-10 md:mb-20 md:grid-cols-[minmax(0,1.12fr)_minmax(0,0.88fr)] md:items-center">
+      <div>
+        <div class="inline-flex items-center gap-2 rounded-full border border-emerald-400/50 bg-gradient-to-r from-emerald-500/10 via-cyan-400/10 to-indigo-500/10 px-2 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-emerald-200 shadow-sm shadow-emerald-500/40">
+          <span class="inline-flex h-4 w-4 items-center justify-center rounded-full bg-emerald-400 text-[9px] font-black text-slate-950">2026</span>
+          <span>Teen Money Playbook for the AI Era</span>
+        </div>
+
+        <h1 class="mt-5 text-balance text-4xl font-black tracking-tight text-slate-50 sm:text-5xl lg:text-6xl">
+          From Allowance to <span class="bg-gradient-to-r from-emerald-400 via-cyan-300 to-indigo-400 bg-clip-text text-transparent">Assets</span>
+        </h1>
+        <p class="mt-4 max-w-xl text-balance text-sm font-semibold uppercase tracking-[0.22em] text-emerald-200">
+          The Teen Guide to Millionaire Habits in 2026
+        </p>
+        <p class="mt-5 max-w-xl text-base text-slate-300 sm:text-lg">
+          Turn pocket money, part-time jobs, and side hustles into real assets. Learn the exact daily habits, systems, and tools teens are using right now to build six and seven-figure net worths before 25.
+        </p>
+
+        <div class="mt-6 flex flex-wrap items-center gap-4">
+          <div class="relative inline-flex items-center gap-3 rounded-full bg-slate-900/90 px-3 py-2 text-sm text-slate-200 shadow shadow-emerald-500/30">
+            <div class="pulse-dot relative flex h-2.5 w-2.5 items-center justify-center rounded-full bg-emerald-400"></div>
+            <span class="font-semibold">$7.99</span>
+            <span class="h-5 w-px bg-slate-700"></span>
+            <span class="text-xs text-slate-400">Instant digital download • Lifetime updates</span>
+          </div>
+        </div>
+
+        <div class="mt-7 flex flex-wrap items-center gap-3">
+          <a href="#buy" class="btn-gradient inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-semibold text-slate-950 shadow-lg">
+            Get Instant Access – $7.99
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M5 12h14M13 5l7 7-7 7" />
+            </svg>
+          </a>
+          <button class="pill inline-flex items-center gap-2 rounded-full px-3 py-2 text-xs font-medium text-slate-200">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" d="M5 13l4 4L19 7" />
+            </svg>
+            <span>Built for ages 13–19</span>
+          </button>
+        </div>
+
+        <div class="mt-7 grid gap-4 text-xs text-slate-400 sm:grid-cols-3">
+          <div class="flex items-start gap-2">
+            <span class="mt-1 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/20 text-[10px] font-bold text-emerald-300">1</span>
+            <div>
+              <p class="font-semibold text-slate-200">Learn the millionaire blueprint</p>
+              <p class="mt-1 text-[12px] text-slate-400">Step-by-step habits you can start this week with zero experience.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-2">
+            <span class="mt-1 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-cyan-500/20 text-[10px] font-bold text-cyan-300">2</span>
+            <div>
+              <p class="font-semibold text-slate-200">Turn time into assets</p>
+              <p class="mt-1 text-[12px] text-slate-400">Transform your allowance, job, or side hustle into investable assets.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-2">
+            <span class="mt-1 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-[10px] font-bold text-indigo-300">3</span>
+            <div>
+              <p class="font-semibold text-slate-200">Use 2026 tools</p>
+              <p class="mt-1 text-[12px] text-slate-400">Leverage AI, creator platforms, and modern investing apps safely.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative flex items-center justify-center">
+        <div class="pointer-events-none absolute -inset-16 bg-[radial-gradient(circle_at_top,_rgba(34,211,238,0.25),transparent_60%),radial-gradient(circle_at_bottom,_rgba(34,197,94,0.2),transparent_55%)] opacity-70 blur-3xl"></div>
+        <div class="float-slow relative z-10 flex gap-5">
+          <div class="ebook-spine mt-4 hidden h-72 w-5 rounded-l-2xl border border-slate-800/90 shadow-xl shadow-slate-900/90 lg:block"></div>
+          <div class="ebook-cover relative flex h-[320px] w-[220px] flex-col justify-between rounded-2xl border border-slate-700/90 px-5 py-5 sm:h-[360px] sm:w-[240px] sm:px-6 sm:py-6">
+            <div class="flex flex-col gap-3">
+              <span class="badge-soft inline-flex max-w-max items-center rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-emerald-200">
+                Money Skills for the Next Decade
+              </span>
+              <div>
+                <p class="text-[11px] font-semibold uppercase tracking-[0.26em] text-slate-300/80">From</p>
+                <p class="mt-0.5 text-sm font-bold uppercase tracking-[0.3em] text-emerald-200">Allowance</p>
+                <p class="text-3xl font-black leading-tight tracking-tight text-slate-50">
+                  to <span class="bg-gradient-to-r from-emerald-400 via-cyan-300 to-indigo-400 bg-clip-text text-transparent">Assets</span>
+                </p>
+              </div>
+              <p class="text-[11px] font-medium uppercase tracking-[0.24em] text-slate-300/90">
+                The Teen Guide to Millionaire Habits in 2026
+              </p>
+            </div>
+
+            <div class="mt-4 flex flex-col gap-3 text-[11px] text-slate-200">
+              <div class="flex items-center gap-2 rounded-xl bg-slate-950/70 px-2 py-1">
+                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/20 text-[10px] font-bold text-emerald-300">$</span>
+                <p class="leading-tight">Turn every $10 into a long-term asset using simple, repeatable systems.</p>
+              </div>
+              <div class="flex items-center gap-2 rounded-xl bg-slate-950/70 px-2 py-1">
+                <span class="flex h-5 w-5 items-center justify-center rounded-full bg-cyan-500/20 text-[10px] font-bold text-cyan-300">AI</span>
+                <p class="leading-tight">Use AI tools legally & ethically to earn, save, and invest smarter.</p>
+              </div>
+            </div>
+
+            <div class="mt-3 flex items-center justify-between text-[11px] text-slate-300">
+              <div>
+                <p class="font-semibold">Digital Edition · 2026</p>
+                <p class="mt-0.5 text-[10px] text-slate-400">Lifetime updates included</p>
+              </div>
+              <div class="text-right">
+                <p class="font-semibold text-emerald-300">$7.99</p>
+                <p class="mt-0.5 text-[10px] text-slate-400">Instant PDF + EPUB</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute -bottom-6 left-1/2 w-[260px] -translate-x-1/2 rounded-2xl border border-slate-800 bg-slate-950/95 px-4 py-3 text-xs text-slate-200 shadow-2xl shadow-emerald-500/20 sm:w-[320px]">
+          <div class="flex items-center gap-2">
+            <div class="relative flex h-7 w-7 items-center justify-center overflow-hidden rounded-full bg-gradient-to-br from-emerald-500 to-indigo-500 text-[11px] font-bold text-slate-950">
+              $7.99
+            </div>
+            <div class="flex-1">
+              <p class="font-semibold">One-time payment. Own it forever.</p>
+              <p class="text-[11px] text-slate-400">Secure payment via Skrill. No subscriptions, no upsells.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section-fade-up mb-16 md:mb-20">
+      <div class="grid gap-10 md:grid-cols-2 md:items-start">
+        <div>
+          <h2 class="text-2xl font-bold tracking-tight text-slate-50 sm:text-3xl">
+            Why this book matters in <span class="text-emerald-300">2026</span>
+          </h2>
+          <p class="mt-4 text-sm text-slate-300 sm:text-base">
+            Money has changed. AI, crypto, creator platforms, and micro-investing apps have completely rewritten the rulebook—but schools still don’t teach practical money skills. This ebook translates real-world millionaire habits into a step-by-step playbook made for teens today.
+          </p>
+          <p class="mt-3 text-sm text-slate-300 sm:text-base">
+            Instead of vague “save more” advice, you’ll get clear scripts, daily checklists, and simple systems you can run from your phone to earn more, keep more, and grow it automatically.
+          </p>
+
+          <div class="mt-5 grid gap-3 text-sm text-slate-200 sm:grid-cols-2">
+            <div class="pill flex items-start gap-2 rounded-2xl px-3 py-3">
+              <span class="mt-1 inline-flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/25 text-[10px] font-bold text-emerald-300">✓</span>
+              <div>
+                <p class="font-semibold">Teen-first language</p>
+                <p class="mt-1 text-xs text-slate-400">No jargon, no lectures—just clear, practical steps that fit your life.</p>
+              </div>
+            </div>
+            <div class="pill flex items-start gap-2 rounded-2xl px-3 py-3">
+              <span class="mt-1 inline-flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-cyan-500/25 text-[10px] font-bold text-cyan-300">✓</span>
+              <div>
+                <p class="font-semibold">Built for tiny starting points</p>
+                <p class="mt-1 text-xs text-slate-400">Start with $0–$50/month and scale as your income grows.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass rounded-2xl border border-slate-800/80 p-4 sm:p-5">
+          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300">
+            You’ll walk away knowing how to:
+          </p>
+          <div class="mt-3 grid gap-3 sm:grid-cols-2">
+            <div class="highlight rounded-xl px-3 py-3">
+              <p class="text-xs font-semibold text-slate-100">Design your millionaire day</p>
+              <p class="mt-1 text-[11px] text-slate-300">
+                Turn 24 hours into an asset-building schedule you can actually stick to.
+              </p>
+            </div>
+            <div class="highlight rounded-xl px-3 py-3">
+              <p class="text-xs font-semibold text-slate-100">Use AI as your money co-pilot</p>
+              <p class="mt-1 text-[11px] text-slate-300">
+                Prompts and workflows to research, budget, and find new income ideas.
+              </p>
+            </div>
+            <div class="highlight rounded-xl px-3 py-3">
+              <p class="text-xs font-semibold text-slate-100">Pick your first assets</p>
+              <p class="mt-1 text-[11px] text-slate-300">
+                Stocks, index funds, businesses, skills, and digital products—explained simply.
+              </p>
+            </div>
+            <div class="highlight rounded-xl px-3 py-3">
+              <p class="text-xs font-semibold text-slate-100">Avoid the traps</p>
+              <p class="mt-1 text-[11px] text-slate-300">
+                Spot scams, dumb flexes, and trends that drain your future wealth.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inside the book -->
+    <section id="inside" class="section-fade-up mb-16 md:mb-20">
+      <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <h2 class="text-2xl font-bold tracking-tight text-slate-50 sm:text-3xl">Inside the ebook</h2>
+          <p class="mt-2 text-sm text-slate-300 sm:text-base">
+            160+ pages of field-tested frameworks, checklists, and scripts — written for the 2026 economy.
+          </p>
+        </div>
+        <div class="pill flex items-center gap-2 rounded-full px-3 py-1.5 text-[11px] text-slate-300">
+          <span class="inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/20 text-[10px] font-bold text-emerald-300">PDF</span>
+          <span>PDF &amp; EPUB • Read on phone, tablet, or laptop</span>
+        </div>
+      </div>
+
+      <div class="glass grid gap-6 rounded-2xl border border-slate-800/80 p-4 sm:grid-cols-[1.1fr_minmax(0,0.9fr)] sm:p-5 lg:p-6">
+        <div class="space-y-3 text-sm text-slate-200">
+          <details class="group rounded-xl border border-slate-800/80 bg-slate-950/60 px-3 py-3" open>
+            <summary class="flex cursor-pointer list-none items-center justify-between">
+              <span class="font-semibold">Part 1 · Rewiring Your Money Mind for 2026</span>
+              <span class="ml-3 text-xs text-slate-400 group-open:text-emerald-300">6 chapters</span>
+            </summary>
+            <ul class="mt-2 list-disc space-y-1 pl-5 text-xs text-slate-300">
+              <li>Why traditional money advice is outdated (and what still works)</li>
+              <li>How millionaire teens actually think about time, risk, and freedom</li>
+              <li>Designing your “Default Rich Path” for the next 10 years</li>
+            </ul>
+          </details>
+
+          <details class="group rounded-xl border border-slate-800/80 bg-slate-950/60 px-3 py-3">
+            <summary class="flex cursor-pointer list-none items-center justify-between">
+              <span class="font-semibold">Part 2 · From Allowance & Jobs to Real Income</span>
+              <span class="ml-3 text-xs text-slate-400 group-open:text-emerald-300">7 chapters</span>
+            </summary>
+            <ul class="mt-2 list-disc space-y-1 pl-5 text-xs text-slate-300">
+              <li>Automating your “first $1000” savings system</li>
+              <li>2026-friendly side hustles (that don’t break school rules)</li>
+              <li>Using AI to 3x your hourly rate without burning out</li>
+            </ul>
+          </details>
+
+          <details class="group rounded-xl border border-slate-800/80 bg-slate-950/60 px-3 py-3">
+            <summary class="flex cursor-pointer list-none items-center justify-between">
+              <span class="font-semibold">Part 3 · Turning Cash into Assets</span>
+              <span class="ml-3 text-xs text-slate-400 group-open:text-emerald-300">8 chapters</span>
+            </summary>
+            <ul class="mt-2 list-disc space-y-1 pl-5 text-xs text-slate-300">
+              <li>A simple, no-flex investing plan for teens</li>
+              <li>Index funds, ETFs, and compounding explained in 10 minutes</li>
+              <li>When (and if) crypto, NFTs, and digital assets make sense</li>
+            </ul>
+          </details>
+
+          <details class="group rounded-xl border border-slate-800/80 bg-slate-950/60 px-3 py-3">
+            <summary class="flex cursor-pointer list-none items-center justify-between">
+              <span class="font-semibold">Part 4 · Building Skills & Digital Assets</span>
+              <span class="ml-3 text-xs text-slate-400 group-open:text-emerald-300">6 chapters</span>
+            </summary>
+            <ul class="mt-2 list-disc space-y-1 pl-5 text-xs text-slate-300">
+              <li>Picking one “money skill” to master by 18</li>
+              <li>Launching simple digital products and micro-brands</li>
+              <li>Protecting your reputation, accounts, and focus online</li>
+            </ul>
+          </details>
+
+          <details class="group rounded-xl border border-slate-800/80 bg-slate-950/60 px-3 py-3">
+            <summary class="flex cursor-pointer list-none items-center justify-between">
+              <span class="font-semibold">Part 5 · Your Millionaire Habit Engine</span>
+              <span class="ml-3 text-xs text-slate-400 group-open:text-emerald-300">Toolkits</span>
+            </summary>
+            <ul class="mt-2 list-disc space-y-1 pl-5 text-xs text-slate-300">
+              <li>Weekly wealth check-in template</li>
+              <li>Habit tracker for saving, earning, and learning</li>
+              <li>Accountability scripts for friends & family</li>
+            </ul>
+          </details>
+        </div>
+
+        <div class="flex flex-col justify-between gap-5">
+          <div class="rounded-2xl border border-emerald-500/30 bg-emerald-500/5 p-4 text-xs text-emerald-100">
+            <p class="font-semibold uppercase tracking-[0.2em]">Included assets</p>
+            <ul class="mt-2 space-y-1.5 text-[12px]">
+              <li>• Printable millionaire habit tracker (PDF)</li>
+              <li>• 30-day “From Allowance to Assets” action plan</li>
+              <li>• Swipe file of AI prompts for money, careers & business ideas</li>
+              <li>• Notion & Google Sheets-friendly budgeting template</li>
+            </ul>
+          </div>
+          <div class="pill flex items-center justify-between rounded-2xl px-4 py-3 text-xs text-slate-200">
+            <div>
+              <p class="font-semibold text-slate-100">All future updates are free.</p>
+              <p class="mt-1 text-[11px] text-slate-400">Buy once for $7.99, get updated editions as the economy changes.</p>
+            </div>
+            <button class="hidden rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-[11px] font-semibold text-emerald-200 sm:inline-flex">
+              Lock in for $7.99
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bonuses & value -->
+    <section id="bonuses" class="section-fade-up mb-16 md:mb-20">
+      <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <h2 class="text-2xl font-bold tracking-tight text-slate-50 sm:text-3xl">Bonuses when you buy today</h2>
+          <p class="mt-2 text-sm text-slate-300 sm:text-base">
+            Designed to make it impossible not to take action—even if you’re starting from zero.
+          </p>
+        </div>
+        <span class="rounded-full bg-emerald-500/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-emerald-300">
+          All included for $7.99
+        </span>
+      </div>
+
+      <div class="grid gap-4 sm:grid-cols-3">
+        <div class="glass rounded-2xl border border-emerald-500/25 p-4 text-sm">
+          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300">Bonus #1</p>
+          <p class="mt-2 font-semibold text-slate-50">“First $1,000 Asset Plan” (Checklist)</p>
+          <p class="mt-2 text-xs text-slate-300">
+            A one-page roadmap that shows exactly where to send each dollar of your first $1,000 so you’re not guessing or copying random TikTok advice.
+          </p>
+        </div>
+        <div class="glass rounded-2xl border border-cyan-500/25 p-4 text-sm">
+          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">Bonus #2</p>
+          <p class="mt-2 font-semibold text-slate-50">21-Day Money Momentum Challenge</p>
+          <p class="mt-2 text-xs text-slate-300">
+            Simple daily tasks (5–15 minutes) to install the core millionaire habits into your real life in three weeks.
+          </p>
+        </div>
+        <div class="glass rounded-2xl border border-indigo-500/25 p-4 text-sm">
+          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-indigo-300">Bonus #3</p>
+          <p class="mt-2 font-semibold text-slate-50">Parent/Guardian Conversation Guide</p>
+          <p class="mt-2 text-xs text-slate-300">
+            Scripts and talking points to get support (or at least permission) for accounts, jobs, and investing decisions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section-fade-up mb-16 md:mb-20">
+      <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <h2 class="text-2xl font-bold tracking-tight text-slate-50 sm:text-3xl">What early readers say</h2>
+          <p class="mt-2 text-sm text-slate-300 sm:text-base">
+            Teens are already using these habits to launch side income, save aggressively, and start investing.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid gap-4 md:grid-cols-3">
+        <article class="glass rounded-2xl border border-slate-800/80 p-4 text-sm">
+          <p class="text-xs text-emerald-300">“Finally something that makes sense.”</p>
+          <p class="mt-2 text-xs text-slate-300">
+            I’d watched a million YouTube videos and still felt lost. This book gave me one clear plan and I actually stuck to it. I used the AI prompts to get my first freelance design client at 16.
+          </p>
+          <p class="mt-3 text-[11px] font-semibold text-slate-400">— A., 16 · Graphic design side hustle</p>
+        </article>
+
+        <article class="glass rounded-2xl border border-slate-800/80 p-4 text-sm">
+          <p class="text-xs text-emerald-300">“Helped me talk to my parents.”</p>
+          <p class="mt-2 text-xs text-slate-300">
+            The scripts in the parent guide were clutch. I showed them the plan and now they match part of what I invest instead of just telling me to “save.”
+          </p>
+          <p class="mt-3 text-[11px] font-semibold text-slate-400">— J., 15 · New investor</p>
+        </article>
+
+        <article class="glass rounded-2xl border border-slate-800/80 p-4 text-sm">
+          <p class="text-xs text-emerald-300">“Feels like a cheat code for 2026.”</p>
+          <p class="mt-2 text-xs text-slate-300">
+            The millionaire habit checklist and weekly review questions changed everything. I stopped chasing random trends and focused on one skill + one income stream.
+          </p>
+          <p class="mt-3 text-[11px] font-semibold text-slate-400">— K., 18 · Content & tutoring</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Pricing & Skrill Buy section -->
+    <section id="buy" class="section-fade-up mb-16 md:mb-20">
+      <div class="pricing-card relative overflow-hidden rounded-3xl border border-emerald-500/30 p-5 shadow-[0_20px_80px_rgba(16,185,129,0.35)] sm:p-7">
+        <div class="pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full bg-emerald-500/20 blur-2xl"></div>
+        <div class="pointer-events-none absolute -bottom-16 left-10 h-40 w-40 rounded-full bg-cyan-500/15 blur-2xl"></div>
+
+        <div class="relative grid gap-6 md:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] md:items-center">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-200">
+              One-time purchase • Instant access
+            </p>
+            <h2 class="mt-2 text-2xl font-bold tracking-tight text-slate-50 sm:text-3xl">
+              Own “From Allowance to Assets” for just <span class="text-emerald-300">$7.99</span>
+            </h2>
+            <p class="mt-3 text-sm text-slate-200 sm:text-base">
+              Get the full ebook, all bonus materials, and lifetime updates—delivered instantly after secure payment via Skrill.
+            </p>
+
+            <div class="mt-5 flex flex-wrap items-end gap-4">
+              <div class="flex items-baseline gap-1">
+                <span class="text-3xl font-black text-slate-50">$7.99</span>
+                <span class="text-xs font-medium uppercase tracking-[0.2em] text-slate-400">USD</span>
+              </div>
+              <p class="text-xs text-slate-300">
+                Access anywhere • Read on any device • Keep it forever
+              </p>
+            </div>
+
+            <div class="mt-6 flex flex-col gap-3 text-xs text-slate-200">
+              <div class="flex items-center gap-2">
+                <span class="inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/20 text-[10px] font-bold text-emerald-300">✓</span>
+                <span>Full ebook (PDF + EPUB), 160+ pages</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/20 text-[10px] font-bold text-emerald-300">✓</span>
+                <span>All 3 bonuses & downloadable templates</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500/20 text-[10px] font-bold text-emerald-300">✓</span>
+                <span>Lifetime updates as money tools and laws change</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass relative rounded-2xl border border-emerald-500/40 p-4 text-sm">
+            <p class="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300">
+              Step 1 · Pay securely with Skrill
+            </p>
+            <p class="mt-2 text-xs text-slate-200">
+              Click the button below to complete your secure payment of <span class="font-semibold text-emerald-200">$7.99</span> using Skrill.
+            </p>
+
+            <!-- Skrill payment button -->
+            <a
+              href="https://www.skrill.com/en/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-gradient mt-4 flex w-full items-center justify-center rounded-full px-4 py-2.5 text-sm font-semibold text-slate-950"
+            >
+              Pay $7.99 with Skrill
+            </a>
+            <!-- 
+              Replace the href above with your actual Skrill payment / checkout URL,
+              for example: https://pay.skrill.com/?amount=7.99&currency=USD&...
+            -->
+
+            <div class="mt-3 flex flex-wrap items-center justify-between gap-2 text-[11px] text-slate-300">
+              <div class="flex items-center gap-2">
+                <span class="inline-flex h-5 w-5 items-center justify-center rounded-full bg-slate-900 text-[9px] font-semibold text-slate-200">1</span>
+                <span>Complete your $7.99 Skrill payment</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="inline-flex h-5 w-5 items-center justify-center rounded-full bg-slate-900 text-[9px] font-semibold text-slate-200">2</span>
+                <span>Get instant download link on the confirmation page</span>
+              </div>
+            </div>
+
+            <div class="mt-4 rounded-xl bg-slate-950/70 p-3 text-[11px] text-slate-400">
+              <p class="font-semibold text-slate-200">Secure payments via Skrill</p>
+              <p class="mt-1">
+                Skrill handles your payment details. We never see your card or bank information.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section-fade-up mb-16 md:mb-20">
+      <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <h2 class="text-2xl font-bold tracking-tight text-slate-50 sm:text-3xl">Questions teens (and parents) ask</h2>
+          <p class="mt-2 text-sm text-slate-300 sm:text-base">
+            If you’re unsure whether this ebook is right for you, these might help.
+          </p>
+        </div>
+      </div>
+
+      <div class="glass divide-y divide-slate-800/80 rounded-2xl border border-slate-800/80">
+        <div class="faq-item">
+          <button class="flex w-full items-center justify-between px-4 py-3 text-left text-sm text-slate-100 sm:px-5" aria-expanded="true">
+            <span>Is this only for teens who already make money?</span>
+            <span class="ml-4 text-slate-400">
+              <span class="faq-icon-closed">+</span>
+              <span class="faq-icon-open">−</span>
+            </span>
+          </button>
+          <div class="px-4 pb-3 text-xs text-slate-300 sm:px-5">
+            No. The book is written so you can start even if you currently get only an allowance or no consistent income at all. You’ll learn how to create income streams from scratch and what to do with the first $10, $50, and $100 you get.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="flex w-full items-center justify-between px-4 py-3 text-left text-sm text-slate-100 sm:px-5" aria-expanded="false">
+            <span>Is this relevant if I’m already 18 or 19?</span>
+            <span class="ml-4 text-slate-400">
+              <span class="faq-icon-closed">+</span>
+              <span class="faq-icon-open">−</span>
+            </span>
+          </button>
+          <div class="hidden px-4 pb-3 text-xs text-slate-300 sm:px-5">
+            Yes. The frameworks are designed for ages roughly 13–19. If you’re closer to 20, the chapters on income, investing, and skills will be especially useful as you move into college, work, or your first business.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="flex w-full items-center justify-between px-4 py-3 text-left text-sm text-slate-100 sm:px-5" aria-expanded="false">
+            <span>Do I need my parents’ permission?</span>
+            <span class="ml-4 text-slate-400">
+              <span class="faq-icon-closed">+</span>
+              <span class="faq-icon-open">−</span>
+            </span>
+          </button>
+          <div class="hidden px-4 pb-3 text-xs text-slate-300 sm:px-5">
+            That depends on your country and how your parents handle money. The book includes a dedicated guide and scripts to explain your plan and ask for support or permission for things like bank accounts, investing apps, or side jobs.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="flex w-full items-center justify-between px-4 py-3 text-left text-sm text-slate-100 sm:px-5" aria-expanded="false">
+            <span>How do I get the ebook after I pay with Skrill?</span>
+            <span class="ml-4 text-slate-400">
+              <span class="faq-icon-closed">+</span>
+              <span class="faq-icon-open">−</span>
+            </span>
+          </button>
+          <div class="hidden px-4 pb-3 text-xs text-slate-300 sm:px-5">
+            After completing your $7.99 payment via Skrill, you’ll be redirected to a secure page with your download links. You can download the PDF/EPUB immediately and keep them forever. You’ll also receive instructions on how to access future updates.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="flex w-full items-center justify-between px-4 py-3 text-left text-sm text-slate-100 sm:px-5" aria-expanded="false">
+            <span>Can I read it on my phone?</span>
+            <span class="ml-4 text-slate-400">
+              <span class="faq-icon-closed">+</span>
+              <span class="faq-icon-open">−</span>
+            </span>
+          </button>
+          <div class="hidden px-4 pb-3 text-xs text-slate-300 sm:px-5">
+            Yes. The ebook comes in both PDF and EPUB formats, so you can read it on phones, tablets, laptops, and most e-readers.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Simple email capture / footer CTA -->
+    <section class="section-fade-up mb-10">
+      <div class="glass flex flex-col gap-4 rounded-2xl border border-slate-800/80 p-5 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300">Not ready yet?</p>
+          <p class="mt-1 text-sm text-slate-100">Get a free preview chapter + 7-day habit email series.</p>
+          <p class="mt-1 text-[11px] text-slate-400">You’ll see exactly how the book is written before you buy.</p>
+        </div>
+        <form class="flex w-full flex-col gap-2 sm:w-auto sm:flex-row">
+          <input
+            type="email"
+            required
+            placeholder="Enter your best email"
+            class="w-full rounded-xl border border-slate-700 bg-slate-950/80 px-3 py-2 text-xs text-slate-100 placeholder:text-slate-500 focus:border-emerald-400 focus:outline-none focus:ring-1 focus:ring-emerald-500 sm:w-64"
+          />
+          <button
+            type="submit"
+            class="btn-gradient flex items-center justify-center rounded-xl px-4 py-2 text-xs font-semibold text-slate-950"
+          >
+            Send me the preview
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-800/80 bg-slate-950/90">
+    <div class="mx-auto flex max-w-6xl flex-col justify-between gap-3 px-4 py-5 text-[11px] text-slate-500 sm:flex-row sm:items-center sm:px-6 lg:px-8">
+      <p>© <span id="year"></span> From Allowance to Assets. All rights reserved.</p>
+      <div class="flex flex-wrap items-center gap-3">
+        <span>Secure payments via Skrill · Price: <span class="font-semibold text-emerald-300">$7.99</span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Dynamic year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Mobile menu toggle
+    const mobileToggle = document.getElementById("mobileMenuToggle");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const menuIcon = document.getElementById("menuIcon");
+    const closeIcon = document.getElementById("closeIcon");
+
+    mobileToggle.addEventListener("click", () => {
+      const isOpen = !mobileMenu.classList.contains("hidden");
+      mobileMenu.classList.toggle("hidden");
+      menuIcon.classList.toggle("hidden", !isOpen === false);
+      closeIcon.classList.toggle("hidden", !isOpen === true);
+    });
+
+    // Scroll to buy section buttons
+    const buySection = document.getElementById("buy");
+    const scrollButtons = [
+      document.getElementById("scrollToBuyDesktop"),
+      document.getElementById("scrollToBuyMobile"),
+    ].filter(Boolean);
+
+    scrollButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        buySection.scrollIntoView({ behavior: "smooth" });
+        if (!mobileMenu.classList.contains("hidden")) {
+          mobileMenu.classList.add("hidden");
+          menuIcon.classList.remove("hidden");
+          closeIcon.classList.add("hidden");
+        }
+      });
+    });
+
+    // FAQ accordion
+    document.querySelectorAll(".faq-item button").forEach((button) => {
+      button.addEventListener("click", () => {
+        const expanded = button.getAttribute("aria-expanded") === "true";
+        button.setAttribute("aria-expanded", String(!expanded));
+        const content = button.nextElementSibling;
+        if (content) {
+          content.classList.toggle("hidden", expanded);
+        }
+      });
+    });
+
+    // Section fade-in on scroll
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("section-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.18 }
+    );
+
+    document.querySelectorAll(".section-fade-up").forEach((section) => {
+      observer.observe(section);
+    });
+
+    // Prevent actual submission for demo email form
+    const emailForm = document.querySelector("form");
+    if (emailForm) {
+      emailForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        alert("Thank you! In a real deployment, this would send the preview to your email.");
+      });
+    }
+  </script>
+</body>
+</html>
